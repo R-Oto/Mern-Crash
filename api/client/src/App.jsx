@@ -1,8 +1,15 @@
 import React from 'react'
+import {Routes, Route} from 'react-router-dom'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className=''>
+      <Routes>
+        <Route path='/' />
+        <Route path='/create' />
+        <Route path='/update' />
+      </Routes>
+    </div>
   )
 }
 
